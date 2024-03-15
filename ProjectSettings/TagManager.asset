@@ -6,7 +6,7 @@ TagManager:
   tags:
   - obstacle
   - World
-  - T2D
+  - collectable
   layers:
   - Default
   - TransparentFX

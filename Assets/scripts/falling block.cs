@@ -25,7 +25,7 @@ public class CubeSpawner : MonoBehaviour
         {
             cube = Instantiate(cubePrefab, transform.position + (new Vector3(0,1.5f,-7)), Quaternion.identity);
             cubeRigidbody = cube.GetComponent<Rigidbody>();
-            cubeRigidbody.AddForce(new Vector3(Random.Range(-forceRange, forceRange), Random.Range(-forceRange, forceRange), Random.Range(-forceRange, forceRange)), ForceMode.Impulse);
+            cubeRigidbody.AddForce(new Vector3(Random.Range(2*-forceRange, 2*forceRange), Random.Range(-forceRange, forceRange), Random.Range(-forceRange, forceRange+1)), ForceMode.Impulse);
 
             timer = 0;
             Delete(cube);

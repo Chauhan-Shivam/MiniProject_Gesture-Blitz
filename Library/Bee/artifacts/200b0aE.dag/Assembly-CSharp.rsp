@@ -334,6 +334,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.ProBuilder.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.ProBuilder.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.Rider.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.Scripting.Python.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.ref.dll"
@@ -357,10 +358,12 @@
 -analyzer:"/Users/sharanchauhan/Unity Editor/2022.3.20f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/scripts/cameracontroller.cs"
 "Assets/scripts/cam_follow.cs"
+"Assets/scripts/CoinDrop.cs"
 "Assets/scripts/falling block.cs"
 "Assets/scripts/GameManager.cs"
 "Assets/scripts/json_file_connector.cs"
 "Assets/scripts/movement.cs"
+"Assets/scripts/score.cs"
 -langversion:9.0
 
 /deterministic
