@@ -66,9 +66,9 @@
   <ItemGroup>
     <Compile Include="Assets/scripts/GameManager.cs" />
     <Compile Include="Assets/scripts/json_file_connector.cs" />
+    <Compile Include="Assets/scripts/ConeSpawner.cs" />
     <Compile Include="Assets/scripts/falling block.cs" />
     <Compile Include="Assets/scripts/MainMenu.cs" />
-    <Compile Include="Assets/scripts/CoinDrop.cs" />
     <Compile Include="Assets/scripts/cam_follow.cs" />
     <Compile Include="Assets/scripts/movement.cs" />
     <Compile Include="Assets/scripts/score.cs" />

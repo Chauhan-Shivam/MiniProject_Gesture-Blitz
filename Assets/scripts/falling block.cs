@@ -14,7 +14,12 @@ public class CubeSpawner : MonoBehaviour
 
     void Start()
     {
-        timer = Random.Range(5f, spawnIntervalRange);
+        timer = Random.Range(6f, spawnIntervalRange);
+		StartCoroutine(Delay());
+    }
+    IEnumerator Delay()
+    {
+        yield return new WaitForSeconds(5);
     }
 
     void FixedUpdate()

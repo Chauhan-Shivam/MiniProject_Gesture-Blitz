@@ -358,7 +358,7 @@
 -analyzer:"/Users/sharanchauhan/Unity Editor/2022.3.20f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/scripts/cameracontroller.cs"
 "Assets/scripts/cam_follow.cs"
-"Assets/scripts/CoinDrop.cs"
+"Assets/scripts/ConeSpawner.cs"
 "Assets/scripts/falling block.cs"
 "Assets/scripts/GameManager.cs"
 "Assets/scripts/json_file_connector.cs"

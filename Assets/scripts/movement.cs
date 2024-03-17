@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class CarMovement : MonoBehaviour
 {
@@ -11,6 +12,11 @@ public class CarMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+		StartCoroutine(Delay());
+    }
+    IEnumerator Delay()
+    {
+        yield return new WaitForSeconds(5);
     }
 
     void FixedUpdate ()
