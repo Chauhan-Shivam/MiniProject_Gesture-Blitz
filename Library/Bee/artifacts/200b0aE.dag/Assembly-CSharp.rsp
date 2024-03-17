@@ -362,6 +362,7 @@
 "Assets/scripts/falling block.cs"
 "Assets/scripts/GameManager.cs"
 "Assets/scripts/json_file_connector.cs"
+"Assets/scripts/MainMenu.cs"
 "Assets/scripts/movement.cs"
 "Assets/scripts/score.cs"
 -langversion:9.0

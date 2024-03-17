@@ -67,6 +67,7 @@
     <Compile Include="Assets/scripts/GameManager.cs" />
     <Compile Include="Assets/scripts/json_file_connector.cs" />
     <Compile Include="Assets/scripts/falling block.cs" />
+    <Compile Include="Assets/scripts/MainMenu.cs" />
     <Compile Include="Assets/scripts/CoinDrop.cs" />
     <Compile Include="Assets/scripts/cam_follow.cs" />
     <Compile Include="Assets/scripts/movement.cs" />
@@ -1012,6 +1013,10 @@
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
       <HintPath>Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Scripting.Python.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Scripting.Python.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
