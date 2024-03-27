@@ -362,10 +362,12 @@
 "Assets/scripts/ConeSpawner.cs"
 "Assets/scripts/falling block.cs"
 "Assets/scripts/GameManager.cs"
+"Assets/scripts/inGameUI.cs"
 "Assets/scripts/json_file_connector.cs"
 "Assets/scripts/MainMenu.cs"
 "Assets/scripts/movement.cs"
 "Assets/scripts/score.cs"
+"Assets/Unity.VisualScripting.Generated/VisualScripting.Core/AotStubs.cs"
 -langversion:9.0
 
 /deterministic
